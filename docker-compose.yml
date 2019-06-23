@@ -1,0 +1,24 @@
+version: "3"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    volumes:
+      - ./server:/server
+    ports:
+      - 8000:8000
+    environment:
+      GO111MODULE: "on"
+    command: go run main.go
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    volumes:
+      - ./client:/app
+    depends_on:
+      - server
+    ports:
+      - 3000:3000
+

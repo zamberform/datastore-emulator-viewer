@@ -1,0 +1,29 @@
+{
+  "name": "datastore-emulator-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "<=7.0.0-beta.55",
+    "@material-ui/core": "1.0.0",
+    "@material-ui/icons": "1.0.0",
+    "axios": "0.18.0",
+    "glamor": "2.20.40",
+    "glamorous": "4.13.0",
+    "lodash": "4.17.10",
+    "log4js": "^4.3.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-json-view": "1.16.6",
+    "react-router-dom": "5.0.0",
+    "react-virtualized": "9.19.0",
+    "roboto-fontface": "0.9.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://server:8000"
+}

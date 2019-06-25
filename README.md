@@ -28,6 +28,8 @@ The project is composed of `server` and `client` directories. To run locally:
 I have followed the client with [Google Clound GUI](https://github.com/GabiAxel/google-cloud-gui).
 You can see more operation in [Google Clound GUI](https://github.com/GabiAxel/google-cloud-gui).
 
+![Initial state](datastore_viewer_show.png)
+
 ## More
 
 Make emulator Docker image
